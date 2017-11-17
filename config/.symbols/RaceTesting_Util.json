@@ -1,0 +1,110 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "RaceTesting_Util",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "RaceTesting_Util",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "newRace",
+            "parameters": [
+                {
+                    "name": "num",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "RaceTesting_Util",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "RaceTesting_Util",
+        "references": [],
+        "type": "RaceTesting_Util"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "num",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "races",
+            "references": [],
+            "type": "List<Race__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "race",
+            "references": [],
+            "type": "Race__c"
+        }
+    ]
+}

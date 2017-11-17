@@ -244,6 +244,20 @@
             "xmlName": "FlowDefinition"
         },
         {
+            "directoryName": "eventSubscriptions",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "subscription",
+            "xmlName": "EventSubscription"
+        },
+        {
+            "directoryName": "eventDeliveries",
+            "inFolder": false,
+            "metaFile": false,
+            "suffix": "delivery",
+            "xmlName": "EventDelivery"
+        },
+        {
             "childXmlNames": [
                 "WorkflowFieldUpdate",
                 "WorkflowKnowledgePublish",

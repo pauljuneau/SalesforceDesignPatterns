@@ -1,0 +1,66 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "RaceController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "RaceController",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "AuraEnabled"
+                }
+            ],
+            "location": {
+                "column": 27,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateRaceDB",
+            "parameters": [
+                {
+                    "name": "race",
+                    "type": "Race__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Race__c",
+            "type": null
+        }
+    ],
+    "name": "RaceController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "RaceController",
+        "references": [],
+        "type": "RaceController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "race",
+            "references": [],
+            "type": "Race__c"
+        }
+    ]
+}

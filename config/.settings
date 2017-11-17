@@ -4,13 +4,19 @@
     "id": "408c3590-77c6-11e7-a13f-8348e2d47441",
     "namespace": "",
     "environment": "developer",
-    "loginUrl": "https://login.salesforce.com/",
+    "loginUrl": "",
     "workspace": "C:\\Users\\pjuneau\\mavensmate",
     "subscription": [
         "ApexClass",
         "ApexComponent",
         "ApexPage",
         "ApexTrigger",
-        "StaticResource"
+        "AppMenu",
+        "AuraDefinitionBundle",
+        "CustomObject",
+        "CustomTab",
+        "InstalledPackage",
+        "StaticResource",
+        "Workflow"
     ]
 }

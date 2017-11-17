@@ -1,0 +1,49 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "ListRacesController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "ListRacesController",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "AuraEnabled"
+                }
+            ],
+            "location": {
+                "column": 33,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRacesDB",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "ListRacesController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ListRacesController",
+        "references": [],
+        "type": "ListRacesController"
+    },
+    "variables": []
+}
