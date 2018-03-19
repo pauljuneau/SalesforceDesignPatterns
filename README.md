@@ -16,4 +16,4 @@
   
 ### Dan Appleman's, "Advanced Apex Programming", 3rd Edition:
 * Deployed 3rd edition [metadata package of Dan Appleman's code](http://advancedapex.com/samplecode/) via Force.com ANT migration tool
-  * [Defensive Programming to Workflow Rule Field Updates]( src/classes/TriggerExample.cls)
+  * [Defensive Programming to Workflow Rule Field Updates]( src/classes/TriggersExample.cls)
