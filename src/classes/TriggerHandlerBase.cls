@@ -32,9 +32,11 @@ public abstract class TriggerHandlerBase implements ITriggerHandler {
 	* @author Hari Krishnan
 	* @date 06/20/2013
 	* @description Updates the objects, if any.
+	* @AdditionalCommentary: sObjectsToUpdate map must be cleared at the end of each trigger event to avoid unnecceary trigger events.
 	*/
 	public virtual void updateObjects() {
 		if(sObjectsToUpdate.size() > 0)
 			update sObjectsToUpdate.values();
+			sObjectsToUpdate.clear();
 	}
 }

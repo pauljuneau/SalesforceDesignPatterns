@@ -62,6 +62,10 @@ public with sharing class TriggerFactory
 	*				dynamically using the Type API. The name of the dispatcher has to follow this format:
 	*				<ObjectName>TriggerDispatcher. For e.g. for the Feedback__c object, the dispatcher has to be named
 	*				as FeedbackTriggerDispatcher.
+    *              
+    * @PreReq: CUSTOM OBJECT NAMING CONVENTION: When creating custom object, do not have spacing in API name. 
+    *                                            For example, BAD: Business_Address__c; GOOD: BusinessAddress__c
+    *                                            Why? Cannot name apex class with underscores, i.e. Business_AddressTriggerDispatcher cannot exist.   
 	* @param Schema.sObjectType Object type to create the dispatcher
 	* @return ITriggerDispatcher A trigger dispatcher  if one exists or null.
 	*/
