@@ -270,5 +270,90 @@
         },
         "DefType": "CONTROLLER",
         "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000000abmdCAA"
+        },
+        "Id": "0Adf4000000abmdCAA",
+        "AuraDefinitionBundleId": "0Abf4000000YZlkCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000YZlkCAG"
+            },
+            "DeveloperName": "RaceTrackerApp"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000000abmnCAA"
+        },
+        "Id": "0Adf4000000abmnCAA",
+        "AuraDefinitionBundleId": "0Abf4000000YZlkCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000YZlkCAG"
+            },
+            "DeveloperName": "RaceTrackerApp"
+        },
+        "DefType": "STYLE",
+        "Format": "CSS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000000abn2CAA"
+        },
+        "Id": "0Adf4000000abn2CAA",
+        "AuraDefinitionBundleId": "0Abf4000000YZlkCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000YZlkCAG"
+            },
+            "DeveloperName": "RaceTrackerApp"
+        },
+        "DefType": "RENDERER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000000abn7CAA"
+        },
+        "Id": "0Adf4000000abn7CAA",
+        "AuraDefinitionBundleId": "0Abf4000000YZlkCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000YZlkCAG"
+            },
+            "DeveloperName": "RaceTrackerApp"
+        },
+        "DefType": "SVG",
+        "Format": "SVG"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Adf4000000abmxCAA"
+        },
+        "Id": "0Adf4000000abmxCAA",
+        "AuraDefinitionBundleId": "0Abf4000000YZlkCAG",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Abf4000000YZlkCAG"
+            },
+            "DeveloperName": "RaceTrackerApp"
+        },
+        "DefType": "DOCUMENTATION",
+        "Format": "XML"
     }
 ]

@@ -82,6 +82,9 @@
         <fullName>IsPrivate</fullName>
     </fields>
     <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
         <fullName>Location</fullName>
     </fields>
     <fields>
