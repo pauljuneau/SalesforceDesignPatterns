@@ -1764,15 +1764,17 @@
         "mmState": "clean"
     },
     "TriggersExample.cls": {
-        "createdById": "005f4000000yJbyAAE",
-        "createdByName": "Paul Juneau",
-        "createdDate": "2018-03-19T19:28:03.000Z",
-        "fileName": "unpackaged/classes/TriggersExample.cls",
-        "fullName": "TriggersExample",
         "id": "01pf4000006vHoPAAU",
+        "name": "TriggersExample",
+        "createdDate": "2018-03-19T19:28:03.000+0000",
+        "createdById": "005f4000000yJbyAAE",
+        "namespacePrefix": null,
         "lastModifiedById": "005f4000000yJbyAAE",
+        "lastModifiedDate": "2018-03-19T19:41:58.000+0000",
+        "fullName": "TriggersExample",
+        "fileName": "unpackaged/classes/TriggersExample.cls",
+        "createdByName": "Paul Juneau",
         "lastModifiedByName": "Paul Juneau",
-        "lastModifiedDate": "2018-03-19T19:28:03.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"

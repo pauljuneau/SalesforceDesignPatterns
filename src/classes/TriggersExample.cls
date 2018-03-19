@@ -24,6 +24,7 @@ public class TriggersExample {
 		insert newTasks;
 	}
 
+	//probabilityOverrides map is defensive programming for updates from declarative code.
 	private static Map<ID, Double> probabilityOverrides = null;
 
 	public static void afterUpdateOpportunityCreateTasks2(
