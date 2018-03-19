@@ -64,6 +64,15 @@
         <trackFeedHistory>true</trackFeedHistory>
         <type>Hierarchy</type>
     </fields>
+    <fields>
+        <fullName>UserIsSpecial__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom field for code used by Dan Appleman in &apos;Advanced Apex Programming&apos; 3rd edition.</description>
+        <externalId>false</externalId>
+        <label>UserIsSpecial</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>ActiveUsers</fullName>
         <filterScope>Everything</filterScope>

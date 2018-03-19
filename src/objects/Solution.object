@@ -59,6 +59,16 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>SolutionSpanish__c</fullName>
+        <description>Solution auto-translated into Spanish</description>
+        <externalId>false</externalId>
+        <label>SolutionSpanish</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <picklist>
             <picklistValues>
@@ -80,6 +90,16 @@
         </picklist>
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TranslationPending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates this record has a translation pending</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this record has a translation pending</inlineHelpText>
+        <label>TranslationPending</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllReviewedSolutions</fullName>

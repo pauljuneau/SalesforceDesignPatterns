@@ -295,6 +295,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>TestCounterAmount__c</fullName>
+        <description>Test Amount field used for concurrency testing</description>
+        <externalId>false</externalId>
+        <label>TestCounterAmount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TotalOpportunityQuantity</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -448,6 +461,13 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Enforce_Tracking_Number</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISBLANK(TrackingNumber__c )</errorConditionFormula>
+        <errorDisplayField>TrackingNumber__c</errorDisplayField>
+        <errorMessage>Tracking number must be set for opportunities</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>
