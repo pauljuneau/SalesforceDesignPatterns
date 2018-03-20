@@ -17,7 +17,7 @@
 ### Dan Appleman's, "Advanced Apex Programming", 3rd Edition:
 * Deployed 3rd edition [metadata package of Dan Appleman's code](http://advancedapex.com/samplecode/) via Force.com ANT migration tool
   * [Defensive Programming to Workflow Rule Field Updates]( src/classes/TriggersExample.cls)
-  * Centralized Asynchronous Framework (Chaining Queueable Apex plus incorporating Scheduled Apex)
+  * **_Centralized Asynchronous Framework_** (Chaining Queueable Apex plus incorporating Scheduled Apex)
 	#### Description: 
 	Centralized Asynchronous Framework includes 2 examples.
 	1. Callout example to translate SoluntionNote field into Spanish on the standard Solution object
