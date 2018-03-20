@@ -1,1 +1,557 @@
-null
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "Concurrency1",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "Concurrency1",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "delay",
+            "parameters": [
+                {
+                    "name": "seconds",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 17
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "incrementOptimistic",
+            "parameters": [
+                {
+                    "name": "amount",
+                    "type": "Double"
+                },
+                {
+                    "name": "delayBefore",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayFromQuery",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayAfter",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 34
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "incrementPessimistic",
+            "parameters": [
+                {
+                    "name": "amount",
+                    "type": "Double"
+                },
+                {
+                    "name": "delayBefore",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayFromQuery",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayAfter",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 63
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "incrementOptimisticWithCapture",
+            "parameters": [
+                {
+                    "name": "amount",
+                    "type": "Double"
+                },
+                {
+                    "name": "delayBefore",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayFromQuery",
+                    "type": "Integer"
+                },
+                {
+                    "name": "delayAfter",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 105
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "recordRecoveryInformation",
+            "parameters": [
+                {
+                    "name": "failedOps",
+                    "type": "List"
+                },
+                {
+                    "name": "amount",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Concurrency1",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 14
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "opportunityName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Concurrency1",
+        "references": [],
+        "type": "Concurrency1"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "seconds",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "largeArray",
+            "references": [],
+            "type": "List<Integer>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "counter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "delayBefore",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "delayFromQuery",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "delayAfter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "delayBefore",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "delayFromQuery",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "delayAfter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "delayBefore",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "delayFromQuery",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "delayAfter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "dmlResults",
+            "references": [],
+            "type": "List<Database.SaveResult>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "failedUpdates",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "Database.SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Database.Error"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "failedOps",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "amount",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "requests",
+            "references": [],
+            "type": "List<AsyncRequest__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 109
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ]
+}

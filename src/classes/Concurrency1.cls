@@ -48,7 +48,17 @@ public class Concurrency1 {
     }
 
 
-    
+    /**
+    * By not using 'for update' qualifier in query, this method uses optimistic record locking. 
+    * AsyncRequest__c processing (GoingAsync4.cls) uses pessimistic record locking
+    *   and throws error if concurrency error is detected.
+    * Optimistic Record Locking: system detects update on same record and throws error
+    * Pessimistic Record Locking: Using 'for update' qualifier ensures record is locked
+    * Example call to cause record locking: 
+    * Concurrency1.incrementOptimisticWithCapture(10,0,0,25); Concurrency1.incrementOptimisticWithCapture(10,1,0,0);
+    * Result: Either see that Opp value has been incremented to 20, 
+    *         or an AsyncRequest__c object has been created with an error status indicating that it was not able to update opp.
+    **/
     @future
     public static void incrementOptimisticWithCapture(
     	double amount, Integer delayBefore, 

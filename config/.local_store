@@ -1919,15 +1919,17 @@
         "mmState": "clean"
     },
     "Concurrency1.cls": {
-        "createdById": "005f4000000yJbyAAE",
-        "createdByName": "Paul Juneau",
-        "createdDate": "2018-03-19T19:28:03.000Z",
-        "fileName": "unpackaged/classes/Concurrency1.cls",
-        "fullName": "Concurrency1",
         "id": "01pf4000006vHnvAAE",
+        "name": "Concurrency1",
+        "createdDate": "2018-03-19T19:28:03.000+0000",
+        "createdById": "005f4000000yJbyAAE",
+        "namespacePrefix": null,
         "lastModifiedById": "005f4000000yJbyAAE",
+        "lastModifiedDate": "2018-03-20T15:28:37.000+0000",
+        "fullName": "Concurrency1",
+        "fileName": "unpackaged/classes/Concurrency1.cls",
+        "createdByName": "Paul Juneau",
         "lastModifiedByName": "Paul Juneau",
-        "lastModifiedDate": "2018-03-19T19:28:03.000Z",
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
