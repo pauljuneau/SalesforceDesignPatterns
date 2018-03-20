@@ -1,0 +1,316 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "GoingAsync4",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "AsyncUpdateException",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "AsyncUpdateException",
+            "methods": [],
+            "name": "AsyncUpdateException",
+            "namespace": null,
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 254
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AsyncUpdateException",
+                "references": [],
+                "type": "AsyncUpdateException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "System.Queueable",
+        "Database.AllowsCallouts"
+    ],
+    "key": "GoingAsync4",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 64
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "QueueableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 155
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "enqueueGoingAsync4",
+            "parameters": [
+                {
+                    "name": "currentJobId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 173
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "tryToQueue",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 188
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "translate",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "AsyncRequest__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 210
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "updateAmounts",
+            "parameters": [
+                {
+                    "name": "request",
+                    "type": "AsyncRequest__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "GoingAsync4",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "GoingAsync4",
+        "references": [],
+        "type": "GoingAsync4"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "System.QueueableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "requests",
+            "references": [],
+            "type": "List<AsyncRequest__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "currentRequest",
+            "references": [],
+            "type": "AsyncRequest__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "moreRequests",
+            "references": [],
+            "type": "List<AsyncRequest__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "currentJobId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 162
+            },
+            "modifiers": [],
+            "name": "jobs",
+            "references": [],
+            "type": "List<AsyncApexJob>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "AsyncRequest__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "allowedCallouts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 194
+            },
+            "modifiers": [],
+            "name": "idsAfterSplit",
+            "references": [],
+            "type": "List<Id>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 196
+            },
+            "modifiers": [],
+            "name": "solutionsToUpdate",
+            "references": [],
+            "type": "List<Solution>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "sl",
+            "references": [],
+            "type": "Solution"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 210
+            },
+            "modifiers": [],
+            "name": "request",
+            "references": [],
+            "type": "AsyncRequest__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ]
+}

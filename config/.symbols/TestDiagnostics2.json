@@ -1,0 +1,1037 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "TestDiagnostics2",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "TestDiagnostics2",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "updateOpportunityTest",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 17,
+                "line": 19
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createTaskTestSingle",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 17,
+                "line": 25
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "createTaskTestBulk",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createTaskTest",
+            "parameters": [
+                {
+                    "name": "numberOfOpportunities",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testTaskCount",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 27,
+                "line": 98
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testFakeException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 121
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "initTestObjects",
+            "parameters": [
+                {
+                    "name": "newOpportunities",
+                    "type": "List"
+                },
+                {
+                    "name": "numberOfOpportunities",
+                    "type": "Integer"
+                },
+                {
+                    "name": "numberOfOtherOpportunities",
+                    "type": "Integer"
+                },
+                {
+                    "name": "contactRolesPerOp",
+                    "type": "Integer"
+                },
+                {
+                    "name": "numberOfContacts",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 173
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "validateOCRs",
+            "parameters": [
+                {
+                    "name": "ops",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 186
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createOpportunities",
+            "parameters": [
+                {
+                    "name": "baseName",
+                    "type": "String"
+                },
+                {
+                    "name": "count",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 202
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createContacts",
+            "parameters": [
+                {
+                    "name": "baseName",
+                    "type": "String"
+                },
+                {
+                    "name": "count",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 218
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createAccounts",
+            "parameters": [
+                {
+                    "name": "baseName",
+                    "type": "String"
+                },
+                {
+                    "name": "count",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 235
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "isTestDisabled",
+            "parameters": [
+                {
+                    "name": "testNumber",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 259
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "setDefaultFields",
+            "parameters": [
+                {
+                    "name": "objectType",
+                    "type": "String"
+                },
+                {
+                    "name": "theObjects",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "TestDiagnostics2",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 58
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "numberOfStageUpdateOpportunities",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "TestDiagnostics2",
+        "references": [],
+        "type": "TestDiagnostics2"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "numberOfOpportunities",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "tasks",
+            "references": [],
+            "type": "List<Task>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 84
+            },
+            "modifiers": [],
+            "name": "opMap",
+            "references": [],
+            "type": "Map<Id,Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 86
+            },
+            "modifiers": [],
+            "name": "tasks",
+            "references": [],
+            "type": "List<Task>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "dbg",
+            "references": [],
+            "type": "List<DebugInfo__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "newOpportunities",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "numberOfOpportunities",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "numberOfOtherOpportunities",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "contactRolesPerOp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "numberOfContacts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "cts",
+            "references": [],
+            "type": "List<Contact>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "otherOpportunities",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "ocrList",
+            "references": [],
+            "type": "List<OpportunityContactRole>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "contactNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 158
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "ocrNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "ops",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "opMap",
+            "references": [],
+            "type": "Map<Id,Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 178
+            },
+            "modifiers": [],
+            "name": "opresults",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 182
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "baseName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "count",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 193
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "baseName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "count",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 204
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "List<Contact>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "baseName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "count",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 220
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "List<Account>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 222
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "act",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 235
+            },
+            "modifiers": [],
+            "name": "testNumber",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 237
+            },
+            "modifiers": [],
+            "name": "resources",
+            "references": [],
+            "type": "List<StaticResource>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 241
+            },
+            "modifiers": [],
+            "name": "contents",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 243
+            },
+            "modifiers": [],
+            "name": "lines",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 244
+            },
+            "modifiers": [],
+            "name": "line",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 246
+            },
+            "modifiers": [],
+            "name": "entries",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "objectType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 259
+            },
+            "modifiers": [],
+            "name": "theObjects",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 261
+            },
+            "modifiers": [],
+            "name": "resources",
+            "references": [],
+            "type": "List<StaticResource>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 265
+            },
+            "modifiers": [],
+            "name": "contents",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "lines",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 268
+            },
+            "modifiers": [],
+            "name": "line",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 270
+            },
+            "modifiers": [],
+            "name": "entries",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "fieldinfo",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 276
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        }
+    ]
+}

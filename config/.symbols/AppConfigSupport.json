@@ -1,0 +1,100 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "AppConfigSupport",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "AppConfigSupport",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 5
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAppConfig",
+            "parameters": [],
+            "references": [],
+            "returnType": "AppConfig__c",
+            "type": null
+        }
+    ],
+    "name": "AppConfigSupport",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "testConfig",
+            "references": [],
+            "type": "AppConfig__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 22
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "diagnosticsEnabled",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "appEnabled",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "AppConfigSupport",
+        "references": [],
+        "type": "AppConfigSupport"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "theobject",
+            "references": [],
+            "type": "AppConfig__c"
+        }
+    ]
+}

@@ -1,0 +1,373 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "Benchmarking",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "Benchmarking",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 5
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testNewAllocate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 11
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "returnNewMap",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 18
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testSorts",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 32
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "returnSorted",
+            "parameters": [
+                {
+                    "name": "inputList",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 24,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "testMethod"
+            ],
+            "name": "testProperties",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 59
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "checkForSpam",
+            "parameters": [
+                {
+                    "name": "ld",
+                    "type": "Lead"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 68
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "checkForSpam2",
+            "parameters": [
+                {
+                    "name": "ld",
+                    "type": "Lead"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 78
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "checkForSpam3",
+            "parameters": [
+                {
+                    "name": "ld",
+                    "type": "Lead"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        }
+    ],
+    "name": "Benchmarking",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "Benchmarking",
+        "references": [],
+        "type": "Benchmarking"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map<Integer,String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "unsortedData",
+            "references": [],
+            "type": "List<Integer>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "inputList",
+            "references": [],
+            "type": "List<Integer>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "sortedList1",
+            "references": [],
+            "type": "List<Integer>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "testEmail",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "testEmail",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

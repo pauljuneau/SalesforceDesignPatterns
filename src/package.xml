@@ -29,19 +29,24 @@
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
+        <members>AppConfig__c</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>AsyncRequest__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
+        <members>DebugInfo__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -61,18 +66,23 @@
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>QuickText</members>
         <members>Race__c</members>
         <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
@@ -91,15 +101,20 @@
     </types>
     <types>
         <members>Account</members>
+        <members>AppConfig__c</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
+        <members>AsyncRequest__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>Contract</members>
         <members>DandBCompany</members>
+        <members>DebugInfo__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -115,14 +130,18 @@
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>OrgDeleteRequest</members>
         <members>Organization</members>
         <members>Product2</members>
+        <members>QuickText</members>
         <members>Race__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>User</members>
         <members>UserLicense</members>
         <members>UserProvisioningRequest</members>

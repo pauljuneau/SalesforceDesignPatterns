@@ -67,7 +67,16 @@ public without sharing class GoingAsync4
     	List<AsyncRequest__c> requests;
     	try
     	{
-	    	requests = [Select ID, AsyncType__c, Params__c,
+	    	/**
+            * Filters out async requests that have resulted in errors
+            * Filters by CreatedById to enforce 'with sharing' in class to enforce sharing rules of whoever requested async action.
+            * 'for update' qualifier makes sure no other instance of this class can access the record while processing it. Concurrency Protection... Pessimistic Record Locking, Not Optimistic Record Locking
+            *
+            * Optimization Idea:
+            *   Add StartTime__c field to AsyncRequest__c object and modify filter so it returned only AsyncRequest__c objects whose start time has been met.
+            *   Use Scheduler Apex to make sure job is queued. Refer to SchedulerDispatcher2.cls
+            **/
+            requests = [Select ID, AsyncType__c, Params__c,
 	    		NewAmount__c, OriginalAmount__c, TargetOpportunity__c 
 	    		from AsyncRequest__c 
 	    		where Error__c = false And
@@ -81,7 +90,18 @@ public without sharing class GoingAsync4
     	
     	try
     	{
-    		if(currentRequest.AsyncType__c=='Translate Solution') 
+    		/** 
+            * WARNING!!!!
+            * UNABLE TO CATCH LIMIT EXCEPTIONS! 
+            *  If an Asynchronous request for a particular AsyncRequest__c object causes a limit exception, 
+            *  the entire framework can get stuck as it tries over and over to process that request.
+            *  WORKAROUND 1: Use limit functions to check usage during each supporting function then process requests. 
+            *                If approaching limit, throw an exception to abort operation and let the framework flag AsyncRequest__c object as an error. 
+            *  WORKAROUND 2: Create initial check method here to first query the AsyncApexJob object for classes that have a JobType of Queuable and that failed for the current user.
+            *                If most recent job was a failure, especially if you see more than one failed job of this type, then it's most likely the current record that is consistently failing.
+            *                Mark AsyncRequest__c object as an error.
+            **/
+            if(currentRequest.AsyncType__c=='Translate Solution') 
     			translate(currentRequest);
     		
     		if(currentRequest.AsyncType__c=='Amount Update') 
@@ -101,6 +121,10 @@ public without sharing class GoingAsync4
     		update currentRequest;
     	}
 
+        /**
+        * Query excludes current request and does not use 'for update' to lock record since 
+        * the only concern is to detect if there is another record pending.
+        **/
     	List<AsyncRequest__c> moreRequests = [Select ID, AsyncType__c, Params__c 
     		from AsyncRequest__c 
     		where Error__c = false 
@@ -112,10 +136,17 @@ public without sharing class GoingAsync4
     	
 		try
 		{
-			enqueueGoingAsync4(context.getJobId());
+			/*
+            * Typically fails to enqueue the class again due to chaining limit exception or because you've performed a callout in the current context.
+            */
+            enqueueGoingAsync4(context.getJobId());
 		}
 		catch(Exception ex)
 		{
+            /**
+            * Back up mechanism for enqueueing this class.
+            * In Queable Apex, you can make a future, batch, or scheduled apex calls
+            **/
 			tryToQueue();
 		}
 		
@@ -123,6 +154,11 @@ public without sharing class GoingAsync4
 
 	public static void enqueueGoingAsync4(ID currentJobId)
 	{
+        /**
+        * Optimization idea - for case where update trigger on AsyncRequest__c has been created to detect clearing of error field, then
+        * modify query to accept LastModifiedById so that it runs with more privileges 
+        * i.e. => and (CreatedById = :userinfo.getUserID() OR LastModifiedById = :userinfo.getUserID())
+        **/
 		List<AsyncApexJob> jobs = [Select ID, Status, ExtendedStatus from AsyncApexJob 
 					where JobType = 'Queueable' And (status='Queued'  Or Status='Holding') 
 					and CreatedById = :userinfo.getUserID() and 
@@ -145,7 +181,7 @@ public without sharing class GoingAsync4
     	catch(Exception ex)
     	{
     		// Wait for someone else to make a request...
-    		// Or maybe use scheduled Apex?
+    		// Or maybe use scheduled Apex? Refer to ScheduledDispatcher2.cls
     	}
     }
     
@@ -173,6 +209,8 @@ public without sharing class GoingAsync4
 
 	public void updateAmounts(AsyncRequest__c request)
 	{
+        //Not bulkified on purpose for readability.  
+        //Can bulkify by creating a separate list of opp Ids to query, do the query, process one at a time, and doing a final update.
 		List<Opportunity> ops = 
 			[Select ID, Amount from Opportunity 
 			 where ID = :request.TargetOpportunity__c for update];

@@ -1,0 +1,503 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "DiagnosticsTriggers2",
+    "innerClasses": [],
+    "interfaces": [
+        "DiagnosticsMain.ITriggerEntry"
+    ],
+    "key": "DiagnosticsTriggers2",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "mainEntry",
+            "parameters": [
+                {
+                    "name": "triggerObject",
+                    "type": "String"
+                },
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isExecuting",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "newList",
+                    "type": "List"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "List"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 16
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "inProgressEntry",
+            "parameters": [
+                {
+                    "name": "triggerObject",
+                    "type": "String"
+                },
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "IsExecuting",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "newlist",
+                    "type": "List"
+                },
+                {
+                    "name": "newmap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldlist",
+                    "type": "List"
+                },
+                {
+                    "name": "oldmap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 22
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "afterUpdateOpportunityCreateTasks2",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "List"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DiagnosticsTriggers2",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 3
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "probabilityOverrides",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DiagnosticsTriggers2",
+        "references": [],
+        "type": "DiagnosticsTriggers2"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "triggerObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "isExecuting",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "triggerObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 113,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 131,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 149,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "IsExecuting",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 176,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "newlist",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 202,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "newmap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 224,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "oldlist",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 249,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "oldmap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "List<Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map<Id,Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map<Id,Opportunity>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "newTasks",
+            "references": [],
+            "type": "List<Task>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "op",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "oldProbability",
+            "references": [],
+            "type": "Double"
+        }
+    ]
+}

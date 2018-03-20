@@ -1,0 +1,97 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "GoingAsync3",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Queueable",
+        "Database.AllowsCallouts"
+    ],
+    "key": "GoingAsync3",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "context",
+                    "type": "QueueableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "GoingAsync3",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "GoingAsync3",
+        "references": [],
+        "type": "GoingAsync3"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "context",
+            "references": [],
+            "type": "System.QueueableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "allowedCallouts",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "solutionsToUpdate",
+            "references": [],
+            "type": "List<Solution>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "sl",
+            "references": [],
+            "type": "Solution"
+        }
+    ]
+}

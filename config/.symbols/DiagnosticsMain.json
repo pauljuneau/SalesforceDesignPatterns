@@ -1,0 +1,634 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "DiagnosticsMain",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "ITriggerEntry",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "ITriggerEntry",
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 8,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public",
+                        "abstract"
+                    ],
+                    "name": "mainEntry",
+                    "parameters": [
+                        {
+                            "name": "triggerObject",
+                            "type": "String"
+                        },
+                        {
+                            "name": "isBefore",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isDelete",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isAfter",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isInsert",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isUpdate",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isExecuting",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "newList",
+                            "type": "List"
+                        },
+                        {
+                            "name": "newMap",
+                            "type": "Map"
+                        },
+                        {
+                            "name": "oldList",
+                            "type": "List"
+                        },
+                        {
+                            "name": "oldMap",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 8,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public",
+                        "abstract"
+                    ],
+                    "name": "inProgressEntry",
+                    "parameters": [
+                        {
+                            "name": "triggerObject",
+                            "type": "String"
+                        },
+                        {
+                            "name": "isBefore",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isDelete",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isAfter",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isInsert",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isUpdate",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "isExecuting",
+                            "type": "Boolean"
+                        },
+                        {
+                            "name": "newList",
+                            "type": "List"
+                        },
+                        {
+                            "name": "newMap",
+                            "type": "Map"
+                        },
+                        {
+                            "name": "oldList",
+                            "type": "List"
+                        },
+                        {
+                            "name": "oldMap",
+                            "type": "Map"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "ITriggerEntry",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 3
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "ITriggerEntry",
+                "references": [],
+                "type": "ITriggerEntry"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 5
+                    },
+                    "modifiers": [],
+                    "name": "triggerObject",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 48,
+                        "line": 5
+                    },
+                    "modifiers": [],
+                    "name": "isBefore",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 6
+                    },
+                    "modifiers": [],
+                    "name": "isDelete",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 6
+                    },
+                    "modifiers": [],
+                    "name": "isAfter",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 6
+                    },
+                    "modifiers": [],
+                    "name": "isInsert",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 7
+                    },
+                    "modifiers": [],
+                    "name": "isUpdate",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 7
+                    },
+                    "modifiers": [],
+                    "name": "isExecuting",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 8
+                    },
+                    "modifiers": [],
+                    "name": "newList",
+                    "references": [],
+                    "type": "List<SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 8
+                    },
+                    "modifiers": [],
+                    "name": "newMap",
+                    "references": [],
+                    "type": "Map<Id,SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 9
+                    },
+                    "modifiers": [],
+                    "name": "oldList",
+                    "references": [],
+                    "type": "List<SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 9
+                    },
+                    "modifiers": [],
+                    "name": "oldMap",
+                    "references": [],
+                    "type": "Map<Id,SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 11
+                    },
+                    "modifiers": [],
+                    "name": "triggerObject",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 11
+                    },
+                    "modifiers": [],
+                    "name": "isBefore",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 12
+                    },
+                    "modifiers": [],
+                    "name": "isDelete",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 12
+                    },
+                    "modifiers": [],
+                    "name": "isAfter",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 12
+                    },
+                    "modifiers": [],
+                    "name": "isInsert",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 12,
+                        "line": 13
+                    },
+                    "modifiers": [],
+                    "name": "isUpdate",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 13
+                    },
+                    "modifiers": [],
+                    "name": "isExecuting",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 14
+                    },
+                    "modifiers": [],
+                    "name": "newList",
+                    "references": [],
+                    "type": "List<SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 14
+                    },
+                    "modifiers": [],
+                    "name": "newMap",
+                    "references": [],
+                    "type": "Map<Id,SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 15
+                    },
+                    "modifiers": [],
+                    "name": "oldList",
+                    "references": [],
+                    "type": "List<SObject>"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 15
+                    },
+                    "modifiers": [],
+                    "name": "oldMap",
+                    "references": [],
+                    "type": "Map<Id,SObject>"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "DiagnosticsMain",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 22
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "mainEntry",
+            "parameters": [
+                {
+                    "name": "triggerObject",
+                    "type": "String"
+                },
+                {
+                    "name": "isBefore",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isDelete",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isAfter",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isUpdate",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "isExecuting",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "newList",
+                    "type": "List"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "List"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DiagnosticsMain",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 18
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "activeFunction",
+            "references": [],
+            "type": "ITriggerEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 20
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fakeException",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DiagnosticsMain",
+        "references": [],
+        "type": "DiagnosticsMain"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "triggerObject",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "isBefore",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "isDelete",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "isAfter",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "isUpdate",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "isExecuting",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        }
+    ]
+}

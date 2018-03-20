@@ -1,0 +1,301 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "ITriggerDispatcher",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "ITriggerDispatcher",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 12
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "bulkBefore",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 19
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "bulkAfter",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 26
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "andFinally",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 34
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "beforeInsert",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 42
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "beforeUpdate",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 50
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "beforeDelete",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 58
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "afterInsert",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 66
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "afterUpdate",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 74
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "afterDelete",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 7,
+                "line": 82
+            },
+            "modifiers": [
+                "public",
+                "abstract"
+            ],
+            "name": "afterUnDelete",
+            "parameters": [
+                {
+                    "name": "tp",
+                    "type": "TriggerParameters"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ITriggerDispatcher",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 18,
+            "line": 6
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ITriggerDispatcher",
+        "references": [],
+        "type": "ITriggerDispatcher"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 82
+            },
+            "modifiers": [],
+            "name": "tp",
+            "references": [],
+            "type": "TriggerParameters"
+        }
+    ]
+}

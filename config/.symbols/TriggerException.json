@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "TriggerException",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "TriggerException",
+    "methods": [],
+    "name": "TriggerException",
+    "namespace": null,
+    "parentClass": "Exception",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TriggerException",
+        "references": [],
+        "type": "TriggerException"
+    },
+    "variables": []
+}

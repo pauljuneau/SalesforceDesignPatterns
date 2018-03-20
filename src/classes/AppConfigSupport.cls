@@ -14,7 +14,7 @@ public with sharing class AppConfigSupport {
 			theObject.EnableDiagnostics__c = (Test.isRunningTest())? true: false;
 			theObject.AppEnabled__c = true;
 			if(!Test.isRunningTest()) Database.Insert(theobject);
-			else testconfig = theObject;
+			else testConfig = theObject;
 		}
 		return theObject;
 	}

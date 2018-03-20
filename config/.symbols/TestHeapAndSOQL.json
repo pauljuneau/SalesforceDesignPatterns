@@ -1,0 +1,265 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "TestHeapAndSOQL",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "TestHeapAndSOQL",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "TestSetup"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setup",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 20
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAllRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 35
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSoqlLoop1",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testSoqlLoop2",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 65
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "ShowLimits",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TestHeapAndSOQL",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "TestHeapAndSOQL",
+        "references": [],
+        "type": "TestHeapAndSOQL"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "longString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "newLeads",
+            "references": [],
+            "type": "List<Lead>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "x",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "leadNames",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "leads",
+            "references": [],
+            "type": "List<Lead>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "leadNames",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "leads",
+            "references": [],
+            "type": "List<Lead>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "leadNames",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "ld",
+            "references": [],
+            "type": "Lead"
+        }
+    ]
+}

@@ -5,6 +5,7 @@ trigger SolutionTrigger1 on Solution (after insert, after update) {
 		trigger.oldMap, trigger.isInsert);
 	*/
 
+	//ENTRY POINT TO CENTRALIZED ASYNC FRAMEWORK:
 	/*
 	GoingAsync1.handleTrigger5(trigger.new, trigger.newMap, 
 		trigger.oldMap, trigger.isInsert);
