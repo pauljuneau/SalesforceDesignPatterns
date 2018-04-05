@@ -40,3 +40,22 @@
 		* [ScheduledDispatcher2]( src/classes/ScheduledDispatcher2.cls)
 		* [GoingAsync5]( src/classes/GoingAsync5.cls)
 		* [Concurrency1]( src/classes/Concurrency1.cls)
+  * **_Diagnostic Instrumentation and Centralized Exception Handling_** 
+  	#### Description:
+  	This framework allows us to capture stack trace info even in a managed package along with logging exceptions in a custom object.
+  	It captures and stores large amounts of data compared to standard debug logs. 
+  	All users are monitored compared to just one with debug logs.
+  	Diagnostic Instrumentation and Centralized Exception Handling example was done for 2 [Opportunity After Update Trigger Events]( src/triggers/OnOpportunity3.trigger). 
+  	#### Package contents:
+  	* Objects:
+		* [DebugInfo__c]( src/objects/DebugInfo__c.object)
+	* Custom Setting:
+		* [AppConfig]( src/objects/AppConfig__c.object)
+	* Triggers: 
+		* [OnOpportunity3]( src/triggers/OnOpportunity3.trigger)
+	* Classes:
+		* [DiagnosticsMain]( src/classes/DiagnosticsMain.cls)
+		* [DiagnosticsInstrumentation]( src/classes/DiagnosticsInstrumentation.cls)
+		* [AppConfigSupport]( src/classes/AppConfigSupport.cls)
+		* [DiagnosticsTriggers1]( src/classes/DiagnosticsTriggers1.cls)
+		* [DiagnosticsTriggers2]( src/classes/DiagnosticsTriggers2.cls)
