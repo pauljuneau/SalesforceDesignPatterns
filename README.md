@@ -59,3 +59,4 @@
 		* [AppConfigSupport]( src/classes/AppConfigSupport.cls)
 		* [DiagnosticsTriggers1]( src/classes/DiagnosticsTriggers1.cls)
 		* [DiagnosticsTriggers2]( src/classes/DiagnosticsTriggers2.cls)
+		* [TestDiagnostics1]( src/classes/TestDiagnostics1.cls)
