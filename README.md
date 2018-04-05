@@ -60,3 +60,4 @@
 		* [DiagnosticsTriggers1]( src/classes/DiagnosticsTriggers1.cls)
 		* [DiagnosticsTriggers2]( src/classes/DiagnosticsTriggers2.cls)
 		* [TestDiagnostics1]( src/classes/TestDiagnostics1.cls)
+		* [TestDiagnostics2]( src/classes/TestDiagnostics2.cls)
