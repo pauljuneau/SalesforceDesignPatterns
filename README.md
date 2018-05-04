@@ -64,5 +64,5 @@
 
 ### Miscellaneous
 * Examples of Dynamic Instantiation (Liskov substitution principle)
-	* [Dynamic Instantiation Abstract Example]( apex-scripts/Dynamic Instantiation Abstract Example.cls)
-	* [Dynamic Instantiation Abstract Example]( apex-scripts/Dynamic Instantiation Interface Example.cls)
+	* [DynamicInstantiationAbstractExample]( apex-scripts/DynamicInstantiationAbstractExample.cls.cls)
+	* [Dynamic Instantiation Abstract Example]( apex-scripts/DynamicInstantiationInterfaceExample.cls)
