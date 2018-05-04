@@ -61,3 +61,8 @@
 		* [DiagnosticsTriggers2]( src/classes/DiagnosticsTriggers2.cls)
 		* [TestDiagnostics1]( src/classes/TestDiagnostics1.cls)
 		* [TestDiagnostics2]( src/classes/TestDiagnostics2.cls)
+
+### Miscellaneous
+* Examples of Dynamic Instantiation (Liskov substitution principle)
+	* [Dynamic Instantiation Abstract Example]( apex-scripts/Dynamic Instantiation Abstract Example.cls)
+	* [Dynamic Instantiation Abstract Example]( apex-scripts/Dynamic Instantiation Interface Example.cls)
