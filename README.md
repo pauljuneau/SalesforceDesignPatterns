@@ -40,6 +40,8 @@
 		* [ScheduledDispatcher2]( src/classes/ScheduledDispatcher2.cls)
 		* [GoingAsync5]( src/classes/GoingAsync5.cls)
 		* [Concurrency1]( src/classes/Concurrency1.cls)
+		* [TestGoingAsync]( src/classes/TestGoingAsync.cls)
+      
   * **_Diagnostic Instrumentation and Centralized Exception Handling_** 
   	#### Description:
   	This framework allows us to capture stack trace info even in a managed package along with logging exceptions in a custom object.
